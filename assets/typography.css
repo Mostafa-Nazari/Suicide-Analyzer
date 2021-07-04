@@ -1,0 +1,123 @@
+.image-text {
+	
+	background: url(/assets/b.jpg);
+        background-position: 100% 100% 100% 100%;
+	background-size : cover;
+        background-repeat: no repeat, no repeat;
+	border-radius: 20px 20px 20px 20px;
+        opacity: 0.5;
+        height: 600px;
+        color:white; 
+	text-align:justify; 
+	padding:40px;
+	font-weight: bold;
+     		    
+}
+
+
+
+.footer {
+  height: 350px;
+  margin-top: 150px;
+  background-color: #26272b;
+  padding: 30px;
+
+}
+
+
+
+/* Extra small devices (phones, 575px and down) */
+@media only screen and (min-width: 575px) {
+
+.image-text {
+   font-size: 12px;
+}
+
+.label-range {
+	margin-top: 30px;
+}
+
+#navbar-text{
+	font-size:16px;
+}
+
+.footer {
+	font-size: 14px;
+}
+
+
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 700px) {
+
+.image-text {
+   font-size: 12px;
+}
+
+.label-range {
+	margin-top: 30px;
+}
+
+#navbar-text{
+	font-size:16px;
+}
+
+.footer {
+	font-size: 14px;
+}
+
+
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 800px) {
+
+.image-text {
+   font-size: 14px;
+}
+
+#navbar-text{
+	font-size:20px;
+}
+
+.footer {
+	font-size: 18px;
+}
+
+
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+.image-text {
+   font-size: 18px;
+}
+
+#navbar-text{
+	font-size:18px;
+}
+  
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+.image-text {
+   font-size: 18px;
+}
+
+#navbar-text{
+	font-size:25px;
+}
+
+.footer {
+	font-size: 20px;
+}
+
+
+}
