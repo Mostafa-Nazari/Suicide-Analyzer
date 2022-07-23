@@ -6,7 +6,7 @@ from dash.dependencies import Input, Output, State
 import pandas
 import numpy
 import dash
-
+import scipy
 
 # style tabs
 tabs_styles = {
